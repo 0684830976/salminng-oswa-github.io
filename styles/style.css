@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    background: url(images/wallpaperflare.com_wallpaper\ \(12\).jpg);
+    background-size: cover;
+    background-position: auto;
+    
+    
+}
+.main{
+      box-sizing: border-box;
+      width: 100%;
+      height: 70px;
+      background: linear-gradient(to top,rgba(0,0,0,0.5)5%, rgba(0,0,0,0.5)5%);
+      
+}
+
+.nav-bar{
+    width:1200px;
+    height: 72px;
+    margin: auto;
+}
+.logo{
+      color: #0ef;
+      font-size: 30px;
+      font-family: Arial;
+      padding-left: 20px;
+      float: left;
+      padding-top: 14px;
+}
+.menus{
+       width: 400px;
+       height: 72px;
+       float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li{
+      list-style: none;
+      margin-left: 62px;
+      margin-top: 27px;
+      font-size: 14px;
+}
+
+ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+             color: #0ef;
+
+}
+
+.search{
+       width: 330px;
+       float: left;
+       margin-left: 270px;
+
+} 
+
+.srch{
+      font-family: monospace;
+      width: 200px;
+      height: 40px;
+      background: transparent;
+      border: 1px solid #0ef;
+      margin-top: 13px;
+      color: #fff;
+      border-right:none;
+      font-size: 16px;
+      float: left;
+      padding: 10px;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius:5px;
+}
+
+.btn{
+    cursor: pointer;
+     width:100px;
+     height: 40px;
+     background: #0ef;
+     border:2px solid #0ef;
+     margin-top: 13px;
+     color: #fff;
+     font-size: 15px;
+     border-bottom-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+     transition: 1.3s ease-in;
+}
+.btn:hover{
+           background: #000;
+}
+
+.btn:focus{
+    outline: none;
+
+}
+.search:focus{
+              outline:none ;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .para{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+    
+}
+.content h1{
+            font-family: 'Times New Roman';
+            font-size: 50px;
+            padding-left: 20px;
+            margin-top: 9%;
+            letter-spacing: 2px;
+}
+
+.content .batani{
+                width:160px;
+                height:40px;
+                background: #0ef;
+                border: none;
+                margin-bottom: 10px;
+                margin-left: 20px;
+                font-size: 18px;
+                border-radius: 10px;
+                cursor: pointer;
+                color: #fff;
+                transition: 1.3s ease-out;
+}
+.content h3{
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-size: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    transition: 0.3s ease;
+    
+}
+.content h3:hover{
+    color:#0ef
+    
+    
+}
+
+
+.content .batani a{
+    text-decoration: none;
+    transition: 1.3s ease-out;
+}
+
+.content .batani a:hover{
+     color: #fff;
+}
+
+.batani:hover{
+             background: #000;
+
+}
+ 
+
+/*Login form style*/
+
+.tittle{
+        text-align: center;
+        margin: 50px 0px 20px;
+        color: #fff;
+        font-size: 25px;
+        font-family: monospace;
+        font-style: italic;
+        
+
+}
+
+.tittle span{
+       color: #0ef;
+       cursor: pointer;
+       font-weight: bold;
+       font-family: arial;
+       font-style: normal;
+
+       
+}
+.container{
+    width: 50%;
+    height: 490px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #0ef;
+    box-shadow: 0px 15px 40px rgba(#0ef,#0ef,#0ef,#0ef.5);
+    border-radius: 2px;
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 490px;
+    background: url(images/santa.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.container .right{
+    float: left;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    
+}
+
+.form-container{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #fff;
+}
+
+.form-container label{
+             margin: 0;
+             padding: 0;
+             font-size: 30px;
+             font-weight: bold;
+             color: #000;
+}
+
+.form-container input{
+    margin-bottom: 20px;
+}
+
+.form-container input[type="password"]
+{
+  border: none;
+  border-bottom: 2px solid #ec777775;
+  outline: none;
+  height: 45px;
+  width: 270px;
+
+}
+.form-container input[type="password"]:focus{
+    border-bottom: 2px solid #0ef;
+}
+
+.form-container input[type="text"]{
+    border: none;
+    border-bottom: 2px solid #ec777775;
+    outline: none;
+    height: 45px;
+    width: 270px;
+
+}
+.form-container input[type="text"]:focus{
+    border-bottom: 2px solid #0ef;
+
+}
+.form-container input[type="submit"]{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    width: 270px;
+    color: #fff;
+    background: #0ef;
+    transition: 0.5s ease-in;
+}
+.form-container input[type="submit"]:hover{
+    background: #000;
+}
+
+.form-container placeholder{
+    font-family: monospace;
+    color: #302e2e;
+}
+
+.form-container a{
+                 float: inline;
+                 padding-left:30%;
+                 color: #000;
+                 text-decoration: none;
+                 cursor: pointer;
+                 transition: 0.5s ease-in;
+                 font-size: 20px;
+
+}
+.form-container a:hover{
+                  color: #0ef;
+                
+}
+
+.or p{
+   float:inline;
+   padding-left:22%;
+}
+
+.form-container.or {
+                 padding-top: 50px;
+                 color: #000;
+                 text-decoration: none;
+                 cursor: pointer;
+                 transition: 0.5s ease-in;
+}
+
+/*registration part*/
+
+.container-reg{
+    width: 50%;
+    height: 600px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #0ef;
+    box-shadow: 0px 15px 40px rgb(0,0,0,0.5), rgba(65, 72, 86, 0.05);
+    border-radius: 10px;
+    
+
+
+}
+
+.container-reg .left-reg{
+float: left;
+width: 50%;
+height: 600px;
+background: url(images/santa.jpg);
+background-size: cover;
+box-sizing: border-box;
+}
+.container-reg .right-reg{
+float: left;
+width: 50%;
+height: 600px;
+box-sizing: border-box;
+
+}
+
+.form-container-reg{
+width: 100%;
+padding: 0px 40px;
+box-sizing: border-box;
+height: 400px;
+background: #fff;
+}
+
+.form-container label{
+         margin: 0;
+         padding: 0;
+         font-size: 30px;
+         font-weight: bold;
+         color: #000;
+}
+
+.form-container-reg input{
+margin-bottom: 20px;
+}
+
+.form-container-reg input[type="password"]
+{
+border: none;
+border-bottom: 2px solid #ec777775;
+outline: none;
+height: 40px;
+width: 270px;
+
+}
+.form-container-reg input[type="password"]:focus{
+border-bottom: 2px solid #0ef;
+}
+
+.form-container-reg input[type="text"],
+.form-container-reg input[type="email"]
+{
+border: none;
+border-bottom: 2px solid #ec777775;
+outline: none;
+height: 35px;
+width: 270px;
+
+}
+.form-container-reg input[type="text"]:focus{
+border-bottom: 2px solid #0ef;
+
+}
+.form-container-reg input[type="submit"]{
+border: none;
+border-radius: 10px;
+outline: none;
+height: 35px;
+width: 270px;
+color: #fff;
+background: #0ef;
+transition: 0.5s ease-in;
+}
+.form-container-reg input[type="submit"]:hover{
+background: #000;
+}
+
+
+ #checklist{
+    padding-left: 40px;
+    font-size: 19px;
+    
+    
+}
+#checklist {
+    --background: #fff;
+    --text: #414856;
+    --check: #4f29f0;
+    --disabled: #c3c8de;
+    --width: 150px;
+    --height: 50px;
+    --border-radius: 10px;
+    background: var(--background);
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    position: relative;
+    box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
+    padding: 10px 5px;
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #checklist label {
+    color: var(--text);
+    position: relative;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    width: fit-content;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+  }
+  
+  #checklist label::before, #checklist label::after {
+    content: "";
+    position: absolute;
+  }
+  
+  #checklist label::before {
+    height: 2px;
+    width: 8px;
+    left: -27px;
+    background: var(--check);
+    border-radius: 2px;
+    transition: background 0.3s ease;
+  }
+  
+  #checklist label:after {
+    height: 4px;
+    width: 4px;
+    top: 8px;
+    left: -25px;
+    border-radius: 50%;
+  }
+  
+  #checklist input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    outline: none;
+    border: 0;
+    margin: 0 15px 0 0;
+    cursor: pointer;
+    background: var(--background);
+    display: grid;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  #checklist input[type="checkbox"]::before, #checklist input[type="checkbox"]::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: auto;
+    background: var(--check);
+    border-radius: 2px;
+  }
+  
+  #checklist input[type="checkbox"]::before {
+    width: 0px;
+    right: 60%;
+    transform-origin: right bottom;
+  }
+  
+  #checklist input[type="checkbox"]::after {
+    width: 0px;
+    left: 40%;
+    transform-origin: left bottom;
+  }
+  
+  #checklist input[type="checkbox"]:checked::before {
+    animation: check-01 0.4s ease forwards;
+  }
+  
+  #checklist input[type="checkbox"]:checked::after {
+    animation: check-02 0.4s ease forwards;
+  }
+  
+  #checklist input[type="checkbox"]:checked + label {
+    color: var(--disabled);
+    animation: move 0.3s ease 0.1s forwards;
+  }
+  
+  #checklist input[type="checkbox"]:checked + label::before {
+    background: var(--disabled);
+    animation: slice 0.4s ease forwards;
+  }
+  
+  #checklist input[type="checkbox"]:checked + label::after {
+    animation: firework 0.5s ease forwards 0.1s;
+  }
+  
+  @keyframes move {
+    50% {
+      padding-left: 8px;
+      padding-right: 0px;
+    }
+  
+    100% {
+      padding-right: 4px;
+    }
+  }
+  
+  @keyframes slice {
+    60% {
+      width: 100%;
+      left: 4px;
+    }
+  
+    100% {
+      width: 100%;
+      left: -2px;
+      padding-left: 0;
+    }
+  }
+  
+  @keyframes check-01 {
+    0% {
+      width: 4px;
+      top: auto;
+      transform: rotate(0);
+    }
+  
+    50% {
+      width: 0px;
+      top: auto;
+      transform: rotate(0);
+    }
+  
+    51% {
+      width: 0px;
+      top: 8px;
+      transform: rotate(45deg);
+    }
+  
+    100% {
+      width: 5px;
+      top: 8px;
+      transform: rotate(45deg);
+    }
+  }
+  
+  @keyframes check-02 {
+    0% {
+      width: 4px;
+      top: auto;
+      transform: rotate(0);
+    }
+  
+    50% {
+      width: 0px;
+      top: auto;
+      transform: rotate(0);
+    }
+  
+    51% {
+      width: 0px;
+      top: 8px;
+      transform: rotate(-45deg);
+    }
+  
+    100% {
+      width: 10px;
+      top: 8px;
+      transform: rotate(-45deg);
+    }
+  }
+  
+  @keyframes firework {
+    0% {
+      opacity: 1;
+      box-shadow: 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0;
+    }
+  
+    30% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      box-shadow: 0 -15px 0 0px #4f29f0, 14px -8px 0 0px #4f29f0, 14px 8px 0 0px #4f29f0, 0 15px 0 0px #4f29f0, -14px 8px 0 0px #4f29f0, -14px -8px 0 0px #4f29f0;
+    }
+  }
+
+  .or-reg p{
+         padding-left:15%;
+         padding-bottom: 3%;
+         
+  }
+  p.signin{
+          padding-left: 10%;
+          
+  }
+  p.signin a{
+            
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 17px;
+            color: #000;
+            transition: 0.3s;
+  }
+
+  p.signin a :hover{
+    background: #0ef;
+  }
